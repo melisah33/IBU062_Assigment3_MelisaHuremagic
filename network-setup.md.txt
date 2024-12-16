@@ -4,18 +4,20 @@ IP addresses: 168.90.0.1 ; 210.3.14.1.
 
 switch0
 model: 2960 ios15
-devices connected: 2 PCs, 1 Laptop, 1 Server
+devices connected: 3 PCs, 1 Laptop, 1 Server
 Assigned IPs:
 PC0: 169.254.138.153
 PC1: 169.254.119.235
 Laptop: 169.254.226.188
 Server: 169.254.40.61
+PC4: 169.254.80.211
 
 switch1
 model: 2960 ios15
-devices connected: 1 PC, 2 Server
+devices connected: 2 PC, 2 Server
 Assigned IPs:
 PC2: 169.254.88.58
 Server1: 169.254.158.155
 Server: 169.254.128.161
+PC3: 169.254.92.164
 
