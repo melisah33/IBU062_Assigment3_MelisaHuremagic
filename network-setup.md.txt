@@ -1,0 +1,21 @@
+Router:
+model: ISR4331
+IP addresses: 168.90.0.1 ; 210.3.14.1.
+
+switch0
+model: 2960 ios15
+devices connected: 2 PCs, 1 Laptop, 1 Server
+Assigned IPs:
+PC0: 169.254.138.153
+PC1: 169.254.119.235
+Laptop: 169.254.226.188
+Server: 169.254.40.61
+
+switch1
+model: 2960 ios15
+devices connected: 1 PC, 2 Server
+Assigned IPs:
+PC2: 169.254.88.58
+Server1: 169.254.158.155
+Server: 169.254.128.161
+
