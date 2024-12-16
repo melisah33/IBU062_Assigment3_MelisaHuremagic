@@ -21,3 +21,17 @@ Server1: 169.254.158.155
 Server: 169.254.128.161
 PC3: 169.254.92.164
 
+DHCP configuration details:
+ip dhcp pool FIRST_NETWORK
+ network 168.90.0.0 255.255.0.0
+ default-router 168.90.0.1
+ dns-server 168.90.0.1
+ip dhcp pool SECOND_NETWORK
+ network 210.3.14.0 255.255.255.0
+ default-router 210.3.14.1
+ dns-server 210.3.14.1
+
+ip dhcp excluded-address 168.90.0.1
+ip dhcp excluded-address 210.3.14.1
+
+
